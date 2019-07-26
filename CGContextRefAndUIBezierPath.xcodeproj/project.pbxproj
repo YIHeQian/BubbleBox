@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E775474B22D9E13100B68D89 /* BubbleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E775474922D9E13100B68D89 /* BubbleLayer.m */; };
+		E775474E22D9F32D00B68D89 /* FiveStart.m in Sources */ = {isa = PBXBuildFile; fileRef = E775474D22D9F32D00B68D89 /* FiveStart.m */; };
+		E7EF9B9422D7218100A1704C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF9B9322D7218100A1704C /* AppDelegate.m */; };
+		E7EF9B9722D7218100A1704C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF9B9622D7218100A1704C /* ViewController.m */; };
+		E7EF9B9A22D7218100A1704C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EF9B9822D7218100A1704C /* Main.storyboard */; };
+		E7EF9B9C22D7219700A1704C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EF9B9B22D7219700A1704C /* Assets.xcassets */; };
+		E7EF9B9F22D7219700A1704C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EF9B9D22D7219700A1704C /* LaunchScreen.storyboard */; };
+		E7EF9BA222D7219700A1704C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF9BA122D7219700A1704C /* main.m */; };
+		E7EF9BAC22D7219800A1704C /* CGContextRefAndUIBezierPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF9BAB22D7219800A1704C /* CGContextRefAndUIBezierPathTests.m */; };
+		E7EF9BB722D7219800A1704C /* CGContextRefAndUIBezierPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF9BB622D7219800A1704C /* CGContextRefAndUIBezierPathUITests.m */; };
+		E7EF9BC622D7230A00A1704C /* CGContextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF9BC522D7230A00A1704C /* CGContextViewController.m */; };
+		E7EF9BC922D7231C00A1704C /* UIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF9BC822D7231C00A1704C /* UIBezierPathViewController.m */; };
+		E7EF9BD322D7595D00A1704C /* HQBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF9BD222D7595D00A1704C /* HQBubbleView.m */; };
+		E7EF9BD522D759E900A1704C /* Doraemon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E7EF9BD422D759E900A1704C /* Doraemon.jpeg */; };
+		E7EF9BD722D8346900A1704C /* 导图.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EF9BD622D8346900A1704C /* 导图.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7EF9BA822D7219800A1704C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7EF9B8722D7218000A1704C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7EF9B8E22D7218100A1704C;
+			remoteInfo = CGContextRefAndUIBezierPath;
+		};
+		E7EF9BB322D7219800A1704C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7EF9B8722D7218000A1704C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7EF9B8E22D7218100A1704C;
+			remoteInfo = CGContextRefAndUIBezierPath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E775474922D9E13100B68D89 /* BubbleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleLayer.m; sourceTree = "<group>"; };
+		E775474A22D9E13100B68D89 /* BubbleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleLayer.h; sourceTree = "<group>"; };
+		E775474C22D9F32D00B68D89 /* FiveStart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveStart.h; sourceTree = "<group>"; };
+		E775474D22D9F32D00B68D89 /* FiveStart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveStart.m; sourceTree = "<group>"; };
+		E7EF9B8F22D7218100A1704C /* CGContextRefAndUIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGContextRefAndUIBezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7EF9B9222D7218100A1704C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7EF9B9322D7218100A1704C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7EF9B9522D7218100A1704C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7EF9B9622D7218100A1704C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7EF9B9922D7218100A1704C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7EF9B9B22D7219700A1704C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7EF9B9E22D7219700A1704C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7EF9BA022D7219700A1704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EF9BA122D7219700A1704C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7EF9BA722D7219800A1704C /* CGContextRefAndUIBezierPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGContextRefAndUIBezierPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7EF9BAB22D7219800A1704C /* CGContextRefAndUIBezierPathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextRefAndUIBezierPathTests.m; sourceTree = "<group>"; };
+		E7EF9BAD22D7219800A1704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EF9BB222D7219800A1704C /* CGContextRefAndUIBezierPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGContextRefAndUIBezierPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7EF9BB622D7219800A1704C /* CGContextRefAndUIBezierPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextRefAndUIBezierPathUITests.m; sourceTree = "<group>"; };
+		E7EF9BB822D7219800A1704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EF9BC422D7230A00A1704C /* CGContextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGContextViewController.h; sourceTree = "<group>"; };
+		E7EF9BC522D7230A00A1704C /* CGContextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextViewController.m; sourceTree = "<group>"; };
+		E7EF9BC722D7231C00A1704C /* UIBezierPathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIBezierPathViewController.h; sourceTree = "<group>"; };
+		E7EF9BC822D7231C00A1704C /* UIBezierPathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathViewController.m; sourceTree = "<group>"; };
+		E7EF9BD022D724AE00A1704C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E7EF9BD122D7595D00A1704C /* HQBubbleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQBubbleView.h; sourceTree = "<group>"; };
+		E7EF9BD222D7595D00A1704C /* HQBubbleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQBubbleView.m; sourceTree = "<group>"; };
+		E7EF9BD422D759E900A1704C /* Doraemon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doraemon.jpeg; sourceTree = "<group>"; };
+		E7EF9BD622D8346900A1704C /* 导图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导图.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7EF9B8C22D7218100A1704C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7EF9BA422D7219800A1704C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7EF9BAF22D7219800A1704C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7EF9B8622D7218000A1704C = {
+			isa = PBXGroup;
+			children = (
+				E7EF9B9122D7218100A1704C /* CGContextRefAndUIBezierPath */,
+				E7EF9BAA22D7219800A1704C /* CGContextRefAndUIBezierPathTests */,
+				E7EF9BB522D7219800A1704C /* CGContextRefAndUIBezierPathUITests */,
+				E7EF9B9022D7218100A1704C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7EF9B9022D7218100A1704C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7EF9B8F22D7218100A1704C /* CGContextRefAndUIBezierPath.app */,
+				E7EF9BA722D7219800A1704C /* CGContextRefAndUIBezierPathTests.xctest */,
+				E7EF9BB222D7219800A1704C /* CGContextRefAndUIBezierPathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7EF9B9122D7218100A1704C /* CGContextRefAndUIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				E7EF9B9222D7218100A1704C /* AppDelegate.h */,
+				E7EF9B9322D7218100A1704C /* AppDelegate.m */,
+				E7EF9B9522D7218100A1704C /* ViewController.h */,
+				E7EF9B9622D7218100A1704C /* ViewController.m */,
+				E7EF9BC722D7231C00A1704C /* UIBezierPathViewController.h */,
+				E7EF9BC822D7231C00A1704C /* UIBezierPathViewController.m */,
+				E7EF9BD622D8346900A1704C /* 导图.png */,
+				E7EF9BD422D759E900A1704C /* Doraemon.jpeg */,
+				E7EF9BD122D7595D00A1704C /* HQBubbleView.h */,
+				E7EF9BD222D7595D00A1704C /* HQBubbleView.m */,
+				E7EF9BC422D7230A00A1704C /* CGContextViewController.h */,
+				E7EF9BC522D7230A00A1704C /* CGContextViewController.m */,
+				E775474A22D9E13100B68D89 /* BubbleLayer.h */,
+				E775474922D9E13100B68D89 /* BubbleLayer.m */,
+				E775474C22D9F32D00B68D89 /* FiveStart.h */,
+				E775474D22D9F32D00B68D89 /* FiveStart.m */,
+				E7EF9BD022D724AE00A1704C /* Header.h */,
+				E7EF9B9822D7218100A1704C /* Main.storyboard */,
+				E7EF9B9B22D7219700A1704C /* Assets.xcassets */,
+				E7EF9B9D22D7219700A1704C /* LaunchScreen.storyboard */,
+				E7EF9BA022D7219700A1704C /* Info.plist */,
+				E7EF9BA122D7219700A1704C /* main.m */,
+			);
+			path = CGContextRefAndUIBezierPath;
+			sourceTree = "<group>";
+		};
+		E7EF9BAA22D7219800A1704C /* CGContextRefAndUIBezierPathTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7EF9BAB22D7219800A1704C /* CGContextRefAndUIBezierPathTests.m */,
+				E7EF9BAD22D7219800A1704C /* Info.plist */,
+			);
+			path = CGContextRefAndUIBezierPathTests;
+			sourceTree = "<group>";
+		};
+		E7EF9BB522D7219800A1704C /* CGContextRefAndUIBezierPathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7EF9BB622D7219800A1704C /* CGContextRefAndUIBezierPathUITests.m */,
+				E7EF9BB822D7219800A1704C /* Info.plist */,
+			);
+			path = CGContextRefAndUIBezierPathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7EF9B8E22D7218100A1704C /* CGContextRefAndUIBezierPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7EF9BBB22D7219800A1704C /* Build configuration list for PBXNativeTarget "CGContextRefAndUIBezierPath" */;
+			buildPhases = (
+				E7EF9B8B22D7218100A1704C /* Sources */,
+				E7EF9B8C22D7218100A1704C /* Frameworks */,
+				E7EF9B8D22D7218100A1704C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGContextRefAndUIBezierPath;
+			productName = CGContextRefAndUIBezierPath;
+			productReference = E7EF9B8F22D7218100A1704C /* CGContextRefAndUIBezierPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7EF9BA622D7219800A1704C /* CGContextRefAndUIBezierPathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7EF9BBE22D7219800A1704C /* Build configuration list for PBXNativeTarget "CGContextRefAndUIBezierPathTests" */;
+			buildPhases = (
+				E7EF9BA322D7219800A1704C /* Sources */,
+				E7EF9BA422D7219800A1704C /* Frameworks */,
+				E7EF9BA522D7219800A1704C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7EF9BA922D7219800A1704C /* PBXTargetDependency */,
+			);
+			name = CGContextRefAndUIBezierPathTests;
+			productName = CGContextRefAndUIBezierPathTests;
+			productReference = E7EF9BA722D7219800A1704C /* CGContextRefAndUIBezierPathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7EF9BB122D7219800A1704C /* CGContextRefAndUIBezierPathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7EF9BC122D7219800A1704C /* Build configuration list for PBXNativeTarget "CGContextRefAndUIBezierPathUITests" */;
+			buildPhases = (
+				E7EF9BAE22D7219800A1704C /* Sources */,
+				E7EF9BAF22D7219800A1704C /* Frameworks */,
+				E7EF9BB022D7219800A1704C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7EF9BB422D7219800A1704C /* PBXTargetDependency */,
+			);
+			name = CGContextRefAndUIBezierPathUITests;
+			productName = CGContextRefAndUIBezierPathUITests;
+			productReference = E7EF9BB222D7219800A1704C /* CGContextRefAndUIBezierPathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7EF9B8722D7218000A1704C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = fxhq;
+				TargetAttributes = {
+					E7EF9B8E22D7218100A1704C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E7EF9BA622D7219800A1704C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E7EF9B8E22D7218100A1704C;
+					};
+					E7EF9BB122D7219800A1704C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E7EF9B8E22D7218100A1704C;
+					};
+				};
+			};
+			buildConfigurationList = E7EF9B8A22D7218000A1704C /* Build configuration list for PBXProject "CGContextRefAndUIBezierPath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7EF9B8622D7218000A1704C;
+			productRefGroup = E7EF9B9022D7218100A1704C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7EF9B8E22D7218100A1704C /* CGContextRefAndUIBezierPath */,
+				E7EF9BA622D7219800A1704C /* CGContextRefAndUIBezierPathTests */,
+				E7EF9BB122D7219800A1704C /* CGContextRefAndUIBezierPathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7EF9B8D22D7218100A1704C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7EF9BD722D8346900A1704C /* 导图.png in Resources */,
+				E7EF9B9F22D7219700A1704C /* LaunchScreen.storyboard in Resources */,
+				E7EF9B9C22D7219700A1704C /* Assets.xcassets in Resources */,
+				E7EF9BD522D759E900A1704C /* Doraemon.jpeg in Resources */,
+				E7EF9B9A22D7218100A1704C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7EF9BA522D7219800A1704C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7EF9BB022D7219800A1704C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7EF9B8B22D7218100A1704C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E775474B22D9E13100B68D89 /* BubbleLayer.m in Sources */,
+				E7EF9B9722D7218100A1704C /* ViewController.m in Sources */,
+				E7EF9BC922D7231C00A1704C /* UIBezierPathViewController.m in Sources */,
+				E7EF9BA222D7219700A1704C /* main.m in Sources */,
+				E7EF9BC622D7230A00A1704C /* CGContextViewController.m in Sources */,
+				E7EF9B9422D7218100A1704C /* AppDelegate.m in Sources */,
+				E775474E22D9F32D00B68D89 /* FiveStart.m in Sources */,
+				E7EF9BD322D7595D00A1704C /* HQBubbleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7EF9BA322D7219800A1704C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7EF9BAC22D7219800A1704C /* CGContextRefAndUIBezierPathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7EF9BAE22D7219800A1704C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7EF9BB722D7219800A1704C /* CGContextRefAndUIBezierPathUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7EF9BA922D7219800A1704C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7EF9B8E22D7218100A1704C /* CGContextRefAndUIBezierPath */;
+			targetProxy = E7EF9BA822D7219800A1704C /* PBXContainerItemProxy */;
+		};
+		E7EF9BB422D7219800A1704C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7EF9B8E22D7218100A1704C /* CGContextRefAndUIBezierPath */;
+			targetProxy = E7EF9BB322D7219800A1704C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7EF9B9822D7218100A1704C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7EF9B9922D7218100A1704C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7EF9B9D22D7219700A1704C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7EF9B9E22D7219700A1704C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7EF9BB922D7219800A1704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7EF9BBA22D7219800A1704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7EF9BBC22D7219800A1704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QEX2L57RL;
+				INFOPLIST_FILE = CGContextRefAndUIBezierPath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fx.com.CGContextRefAndUIBezierPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7EF9BBD22D7219800A1704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QEX2L57RL;
+				INFOPLIST_FILE = CGContextRefAndUIBezierPath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fx.com.CGContextRefAndUIBezierPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7EF9BBF22D7219800A1704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QEX2L57RL;
+				INFOPLIST_FILE = CGContextRefAndUIBezierPathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fx.com.CGContextRefAndUIBezierPathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGContextRefAndUIBezierPath.app/CGContextRefAndUIBezierPath";
+			};
+			name = Debug;
+		};
+		E7EF9BC022D7219800A1704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QEX2L57RL;
+				INFOPLIST_FILE = CGContextRefAndUIBezierPathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fx.com.CGContextRefAndUIBezierPathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CGContextRefAndUIBezierPath.app/CGContextRefAndUIBezierPath";
+			};
+			name = Release;
+		};
+		E7EF9BC222D7219800A1704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QEX2L57RL;
+				INFOPLIST_FILE = CGContextRefAndUIBezierPathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fx.com.CGContextRefAndUIBezierPathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CGContextRefAndUIBezierPath;
+			};
+			name = Debug;
+		};
+		E7EF9BC322D7219800A1704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QEX2L57RL;
+				INFOPLIST_FILE = CGContextRefAndUIBezierPathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fx.com.CGContextRefAndUIBezierPathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CGContextRefAndUIBezierPath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7EF9B8A22D7218000A1704C /* Build configuration list for PBXProject "CGContextRefAndUIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7EF9BB922D7219800A1704C /* Debug */,
+				E7EF9BBA22D7219800A1704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7EF9BBB22D7219800A1704C /* Build configuration list for PBXNativeTarget "CGContextRefAndUIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7EF9BBC22D7219800A1704C /* Debug */,
+				E7EF9BBD22D7219800A1704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7EF9BBE22D7219800A1704C /* Build configuration list for PBXNativeTarget "CGContextRefAndUIBezierPathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7EF9BBF22D7219800A1704C /* Debug */,
+				E7EF9BC022D7219800A1704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7EF9BC122D7219800A1704C /* Build configuration list for PBXNativeTarget "CGContextRefAndUIBezierPathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7EF9BC222D7219800A1704C /* Debug */,
+				E7EF9BC322D7219800A1704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7EF9B8722D7218000A1704C /* Project object */;
+}
